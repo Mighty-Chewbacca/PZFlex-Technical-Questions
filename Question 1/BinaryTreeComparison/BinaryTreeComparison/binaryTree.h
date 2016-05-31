@@ -1,4 +1,4 @@
-#include "node.h"
+#include "stdafx.h"
 
 class binaryTree
 {
@@ -9,6 +9,7 @@ public:
 	void insert(int key);
 	node *search(int key);
 	void destroyTree();
+	node *returnRoot();
 
 private:
 	void destroyTree(node *leaf);

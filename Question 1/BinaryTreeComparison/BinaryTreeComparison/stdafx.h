@@ -6,6 +6,9 @@
 #pragma once
 
 #include "targetver.h"
+#include "node.h"
+#include "binaryTree.h"
+#include "treeIterator.h"
 #include <stddef.h>
 #include <iostream>
 #include <stdio.h>

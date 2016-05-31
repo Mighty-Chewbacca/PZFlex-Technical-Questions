@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include "binaryTree.h"
 
 binaryTree::binaryTree()
 {
@@ -97,4 +96,9 @@ node *binaryTree::search(int key)
 void binaryTree::destroyTree()
 {
 	destroyTree(root);
+}
+
+node *binaryTree::returnRoot()
+{
+	return root;
 }
